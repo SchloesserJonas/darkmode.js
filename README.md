@@ -8,7 +8,7 @@ A lightweight js library to change between light and darkmode using js/html/css
 ```js
 //other stuff
 <script>
-  import theme from 'https://raw.githubusercontent.com/SchloesserJonas/darkmode.js/main/theme.js'
+  import theme from 'pathToFile or https://raw.githubusercontent.com/SchloesserJonas/darkmode.js/main/theme.js'
   
   export default {
     created() {
