@@ -1,11 +1,16 @@
 module.exports = {
     get() {
-        if(localStorage.theme == 'dark' || window.matchMedia("(prefers-color-scheme: dark)").matches) {
-            document.documentElement.setAttribute('theme', 'dark')
-            return 'dark'
+        if(localStorage.theme != undefined) {
+            document.documentElement.setAttribute('theme', localStorage.theme)
+            return localStorage.theme
         } else {
-            document.documentElement.setAttribute('theme', 'light')
-            return 'light'
+            if(window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.setAttribute('theme', 'dark')
+                return 'dark'
+            } else {
+                document.documentElement.setAttribute('theme', 'light')
+                return 'light'
+            }
         }
     },
 
