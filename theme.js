@@ -1,7 +1,5 @@
 module.exports = {
     get() {
-        console.log(localStorage.theme != undefined)
-        console.log(window.matchMedia("(prefers-color-scheme: dark)").matches)
         if(localStorage.theme != undefined) {
             document.documentElement.setAttribute('theme', localStorage.theme)
             return localStorage.theme
