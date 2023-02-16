@@ -1,0 +1,15 @@
+html[theme="dark"] {
+  /*Your CSS HERE*/
+  /*EXAMPLE:*/
+  .box {
+    background: black;
+  }  
+}
+
+html[theme="light"] {
+  /*Your CSS HERE*/
+  /*EXAMPLE:*/
+  .box {
+    background: white;
+  }  
+}
