@@ -43,3 +43,8 @@ import the file in your style tag in your views/ components to automatically app
 <br>
 ### ⚠️ Uses LocalStorage
 **You might have to mention it in your Cookie Banner**
+
+### ⭐️ Expansion options
+Add statements to the darkmode.js file and add the new themes to your scss
+
+#### Feel free to send me your work on twitter ^^
