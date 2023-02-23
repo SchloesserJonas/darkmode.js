@@ -45,6 +45,6 @@ import the file in your style tag in your views/ components to automatically app
 **You might have to mention it in your Cookie Banner**
 
 ### ⭐️ Expansion options
-Add statements to the darkmode.js file and add the new themes to your scss
+Add statements to the theme.js file and add the new themes to your css/scss
 
-#### Feel free to send me your work on twitter ^^
+#### Feel free to send me your work on Twitter ^^
