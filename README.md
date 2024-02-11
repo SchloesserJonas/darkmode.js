@@ -44,5 +44,6 @@ import the file in your style tag in your views/ components to automatically app
 ### ⚠️ Uses LocalStorage
 **You might have to mention it in your Cookie Banner**
 
-### ⭐️ Expansion options
-Add statements to the theme.js file and add the new themes to your css/scss
+### ⭐️ Need something bigger?
+Do you want more than two themes?<br>
+Check out [theme.js](https://github.com/SchloesserJonas/theme.js)!
